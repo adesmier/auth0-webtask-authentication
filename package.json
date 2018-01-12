@@ -1,28 +1,31 @@
 {
-  "name": "react-webpack-babel-template",
+  "name": "auth0-webtask-authentication",
   "version": "1.0.0",
-  "description": "Starter React project using Babel and Webpack",
+  "description": "Securing a static site using Auth0 and Webtask",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack/webpack.config.js --inline --hot"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adesmier/react-webpack-babel-template.git"
+    "url": "git+https://github.com/adesmier/auth0-webtask-authentication.git"
   },
   "author": "Anthony Desmier",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adesmier/react-webpack-babel-template/issues"
+    "url": "https://github.com/adesmier/auth0-webtask-authentication/issues"
   },
-  "homepage": "https://github.com/adesmier/react-webpack-babel-template#readme",
+  "homepage": "https://github.com/adesmier/auth0-webtask-authentication#readme",
   "dependencies": {
+    "auth0-js": "^9.0.0",
+    "auth0-lock": "^11.0.1",
     "axios": "^0.17.1",
     "flux": "^3.1.3",
     "font-awesome": "^4.7.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
   },
